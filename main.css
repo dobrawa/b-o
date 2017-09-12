@@ -1,0 +1,37 @@
+header {
+  display: flex;
+
+}
+ul.navMenu {
+  display: grid;
+  list-style-type: none;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1em;
+  grid-column-gap: 2em;
+  justify-items: center;
+  align-items: center;
+  max-width: 60vh;
+}
+
+li.navMenu {
+  left:50%;
+}
+
+header nav {
+  margin: 0 auto;
+}
+
+.logo{
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+ul.navSubmenu {
+  list-style-type: none;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+  justify-items: center;
+}
