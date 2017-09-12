@@ -79,13 +79,28 @@
 			<p><a href="mailto:salessupport@beoplay.com">salessupport@beoplay.com</a></p>
 		</footer>
 
-		<aside id="modal-box">
-			<button>X</button>
+		<aside id="modal_box">
+			<button class="close">X</button>
 			<img src="images/modal.png">
-			<p>Sign up and win the new BeoPlay H7</p>
-			<p>We'll draw a winner at random. The competition ends April 31, 2016 at 10:00 CET.</p>
-			<a href="#">Sign up</a>
+			<section>
+				<p class="modal_box_title">Sign up and win the new BeoPlay H7</p>
+				<p>We'll draw a winner at random. The competition ends April 31, 2016 at 10:00 CET.</p>
+				<a href="#">SIGN UP</a>
+			</section>
 		</aside>
+
+		<script>
+		// Get the aside element with ID #modal_box
+		var modal = document.getElementById('modal_box');
+
+		// Get the element with CLASS .close
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the element with CLASS .close is clicked, set CSS display to none
+		span.onclick = function() {
+		    modal.style.display = "none";
+		}
+		</script>
 
 	</body>
 </html>

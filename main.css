@@ -35,3 +35,78 @@ ul.navSubmenu {
   grid-column-gap: 1em;
   justify-items: center;
 }
+
+#modal_box {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 550px;
+
+  background: #f0eee9;
+  font-family: sans-serif;
+  color: #bcb2a5;
+
+  box-sizing: border-box;
+}
+
+#modal_box button {
+  position: absolute;
+  top: -14px;
+  left: -14px;
+  height: 28px;
+  width: 28px;
+  border: none;
+  border-radius: 50%;
+
+  background: #4f4f4f;
+  color: #f0eee9;
+}
+
+#modal_box button:hover {
+  top: -16px;
+  left: -16px;
+  width: 32px;
+  height: 32px;
+
+  cursor: pointer;
+}
+
+#modal_box img {
+  width: 250px;
+}
+
+#modal_box section {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  padding: 10px;
+
+  font-size: 14px;
+}
+
+#modal_box .modal_box_title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#modal_box p {
+  text-align: center;
+}
+
+#modal_box a {
+  display: inline-block;
+  width: 100%;
+  padding: 8px 0px;
+  border-radius: 6px;
+
+  background: #bcb2a5;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: #f0eee9;
+}
+
+#modal_box a:hover {
+  background: #4f4f4f;
+}
