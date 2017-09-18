@@ -1,3 +1,7 @@
+body{
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+
 header {
   display: flex;
 
@@ -109,4 +113,32 @@ ul.navSubmenu {
 
 #modal_box a:hover {
   background: #4f4f4f;
+}
+.banner{
+    background-color: #F1F1F1;
+}
+.banner img{
+    margin-left: 140px;
+    width: calc(50% - 140px);
+    float: left;
+}
+.banner .description{
+    max-width: 400px;
+    margin: 40px 40px;
+    width: calc(50% - 80px);
+    float: left;
+}
+.description h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #4f4f4f;
+}
+.description p{
+    font-size: 28px;
+    color: #bcb2a5;
+}
+.banner:after{
+    content: '';
+    display: block;
+    clear: both;
 }
